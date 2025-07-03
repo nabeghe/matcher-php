@@ -1,4 +1,4 @@
-# Yielder for PHP
+# Matcher for PHP ≥ 7.4
 
 > A similar alternative to match in PHP for arrays, with a touch of zest.
 
@@ -124,7 +124,5 @@ print_r($matched_value); // key1, key5
 ```
 
 ## 📖 License
-
-Copyright (c) 2024 Hadi Akbarzadeh
 
 Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.

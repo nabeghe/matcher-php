@@ -1,29 +1,23 @@
 {
     "name": "nabeghe/matcher",
     "description": "A similar alternative to match in PHP for arrays, with a touch of zest.",
-    "keywords": [
-        "matcher",
-        "match",
-        "array",
-        "library"
-    ],
+    "keywords": ["array", "library", "match", "matcher"],
     "type": "library",
-    "version": "1.0.0",
     "homepage": "https://github.com/nabeghe/matcher-php",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Hadi Akbarzadeh",
+            "email": "elsiomcoder@gmail.com",
+            "homepage": "https://elatel.ir",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Nabeghe\\Matcher\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Hadi Akbarzadeh",
-            "email": "hadicoder@gmail.com",
-            "homepage": "https://elatel.ir",
-            "role": "Developer"
-        }
-    ],
     "scripts": {
         "test": "vendor/bin/phpunit tests"
     },
